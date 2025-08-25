@@ -8,15 +8,6 @@ Products are fetched from the [Fake Store API](https://fakestoreapi.com/), with 
 ## 🚀 Live Demo
 [Click here to view on Vercel](https://your-vercel-app.vercel.app)
 
----
-
-## 📸 Screenshots
-
-### Homepage
-![Homepage Screenshot](./screenshots/homepage.png)
-
-### Product Detail
-![Product Detail Screenshot](./screenshots/product-detail.png)
 
 ---
 
