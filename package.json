@@ -60,7 +60,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "node ./api/server.js",
     "client": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build",
+    "build": "CI=false react-scripts build --openssl-legacy-provider build",
     "test": "react-scripts eject",
     "eject": "react-scripts eject"
   },
