@@ -1,0 +1,38 @@
+{
+  // Nama worker / project
+  "name": "ecommerce-worker",
+
+  // Tanggal kompatibilitas (sesuaikan dengan tanggal hari ini)
+  "compatibility_date": "2025-08-25",
+
+  // Folder yang berisi file hasil build React
+  "assets": {
+    "directory": "./build"
+  },
+
+  // Entry point script Worker, jika pakai TypeScript / JS
+  "main": "./worker.js",
+
+  // Environment (opsional)
+  "env": {
+    "production": {
+      "compatibility_date": "2025-08-25"
+    }
+  },
+
+  // Optional: Worker kv namespace (jika ada)
+  "kv_namespaces": [
+    {
+      "binding": "MY_KV",
+      "id": "replace-with-your-kv-id"
+    }
+  ],
+
+  // Optional: Triggers cron jobs (jika ada)
+  "triggers": {
+    "crons": ["0 0 * * *"]
+  },
+
+  // Optional: Disable telemetry
+  "usage_model": "bundled"
+}
